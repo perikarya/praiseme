@@ -5,7 +5,7 @@ r package to deliver praise to the user
 install using devtools <br><br>
 
 ```
-devtools::install_github('perikarya/praiseme')
+devtools::install_github("perikarya/praiseme")
 ```
 
 <h1>usage</h1>
