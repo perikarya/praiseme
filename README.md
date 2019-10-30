@@ -5,7 +5,6 @@ r package to deliver praise to the user
 install using devtools
 ```library(devtools)
 devtools::install_github("perikarya/praiseme")
-```
 
 <h1>examples</h1>
 
