@@ -24,4 +24,4 @@ show the user a message of praise
 ```library(praiseme)
 praiseme_graphics("art", "darkmagenta", "thistle3")
 ```
-![screenshot](https://ibb.co/fGsJq4W)
+![screenshot](https://i.ibb.co/TqsyYmG/Screen-Shot-2019-10-30-at-2-18-28-pm.png)
