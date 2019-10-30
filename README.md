@@ -3,8 +3,7 @@ r package to deliver praise to the user
 
 <h1>installation</h1>
 install using devtools
-~~~
-devtools::install_github('perikarya/praiseme')
+~~~devtools::install_github('perikarya/praiseme')
 ~~~
 
 <h1>usage</h1>
