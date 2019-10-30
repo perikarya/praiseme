@@ -9,9 +9,9 @@ praiseme_graphics(praisefor, colour1 = "black", colour2 = "white")
 \arguments{
 \item{praisefor}{The verb or subject to praise the user for, entered as a string. If blank, a generic praise message will be returned.}
 
-\item{color1}{The color of the text. Default is black.}
+\item{colour1}{The color of the text. Default is black.}
 
-\item{color2}{The color of the background. Default is white.}
+\item{colour2}{The color of the background. Default is white.}
 }
 \value{
 A short praise message displayed as a plot.

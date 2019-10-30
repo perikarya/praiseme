@@ -8,9 +8,9 @@
 #' "cooking"
 #' "writing"
 #'
-#' @param color1 The color of the text. Default is black.
+#' @param colour1 The color of the text. Default is black.
 #'
-#' @param color2 The color of the background. Default is white.
+#' @param colour2 The color of the background. Default is white.
 #'
 #' @return A short praise message displayed as a plot.
 #'
@@ -18,8 +18,10 @@
 #'
 #' @export
 praiseme_graphics <- function(praisefor, colour1="black", colour2="white") {
+  # load dependency -----------------
+  require(ggplot2)
   # check input types ---------------
-  if (typeof(praisefor) != "character") {
+  if (missing(praisefor) == FALSE && typeof(praisefor) != "character") {
     stop("Please enter a word that describes what to give praise for")
   } else {
     # generate praise message --------
@@ -29,7 +31,6 @@ praiseme_graphics <- function(praisefor, colour1="black", colour2="white") {
       praise <- paste0("You're great at ", praisefor, "!")
     }
     # display praise message ----------
-    library(ggplot2)
     ggplot() +
       annotate("text", x=15, y=15, size=6, label=praise, colour=colour1, family="Courier") +
       theme_bw() +
