@@ -4,16 +4,16 @@ r package to deliver praise to the user
 <h1>installation</h1>
 install using devtools
 
-
+<br>
 
 ```
 devtools::install_github('perikarya/praiseme')
 ```
 
 <h1>usage</h1>
-praiseme(praisefor): print a short message of praise, and specify what to praise for. will return a generic message of praisefor is left blank. <br><br>
+<br>praiseme(praisefor):</b> print a short message of praise, and specify what to praise for. will return a generic message of praisefor is left blank. <br><br>
 
-praiseme_graphics(praisefor, colour1, colour2): show the user a message of praise. change the text and background colours using colour1 and colour2, or leave blank for black and white.
+<b>praiseme_graphics(praisefor, colour1, colour2):</b> show the user a message of praise. change the text and background colours using colour1 and colour2, or leave blank for black and white.
 
 <h1>examples</h1>
 
