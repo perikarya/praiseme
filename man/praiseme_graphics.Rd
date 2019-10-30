@@ -20,9 +20,8 @@ A short praise message displayed as a plot.
 Takes a string as input and displays a short message of praise using the string.
 }
 \examples{
-praiseme_graphics()
-praiseme_graphics("coding", "red")
-praiseme_graphics("art")
-praiseme_graphics("coding", "blue", "lightblue")
+"art"
+"cooking"
+"writing"
 
 }

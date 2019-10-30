@@ -10,7 +10,8 @@
 #' praiseme()
 #' praiseme("art")
 #' praiseme("coding")
-
+#'
+#' @export
 praiseme <- function(praisefor) {
   if (missing(praisefor)) {
     print("You're great!")
