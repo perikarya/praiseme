@@ -7,7 +7,8 @@ library(devtools)
 devtools::install_github('perikarya/praiseme')
 
 <h1>functions</h1>
-praiseme(praisefor): print a short message of praise, and specify what to praise for. will return a generic message of praisefor is left blank.  \\
+praiseme(praisefor): print a short message of praise, and specify what to praise for. will return a generic message of praisefor is left blank.
+
 
 praiseme_graphics(praisefor, colour1, colour2): show the user a message of praise. change the text and background colours using colour1 and colour2, or leave blank for black and white.
 
