@@ -1,0 +1,12 @@
+Package: praiseme
+Type: Package
+Title: Deliver a short message of praise to the user
+Version: 0.1.0
+Author: perikarya
+Maintainer: perikarya <22440312@student.uwa.edu.au>
+Description: Print a short message of praise to the user using praiseme().
+    Graphically display a short message of praise to the user using praiseme_graphics().
+License:
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
