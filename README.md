@@ -35,3 +35,7 @@ show the user a message of praise
 praiseme_graphics("art", "darkmagenta", "thistle3")
 ```
 ![screenshot](https://i.ibb.co/TqsyYmG/Screen-Shot-2019-10-30-at-2-18-28-pm.png)
+
+<h1>notes</h1>
+
+a list of colour names supported in r can be found <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf">here</a> to use with this package
