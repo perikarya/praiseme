@@ -1,5 +1,5 @@
 # praiseme
-r package to deliver praise to the user
+r package to deliver praise to the user, made as an introduction to building r packages
 
 <h1>installation</h1>
 install using devtools <br><br>
